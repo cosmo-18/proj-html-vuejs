@@ -7,12 +7,12 @@ function getInput() {
 
     let element = `
 <div id="borderBox">
-                <i id="favi" class="fa-solid fa-check fa-2xl"></i><div id="feedback">Data successfuly acquired!</div>
+                <i id="favi" class="fa-solid fa-check fa-2xl"></i><div id="feedback">Data successfuly acquired !</div>
             </div>
 
     <button id="send-again" class="submit"
  type="submit" name="send-again" onclick="showForm()">
-  SEND NEW CONTACT INFOs
+  SEND NEW CONTACT INFO
 </button>
 `;
     document.querySelector("#texForm").innerHTML = element;
