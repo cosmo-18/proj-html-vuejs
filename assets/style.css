@@ -387,15 +387,32 @@ svg circle {
   stroke-dashoffset: 1000;
 }
 
+#primaP:hover{
+  stroke-dasharray: 300;
+  stroke-dashoffset: 100;
+}
+
 #secondaP{
   stroke-dasharray: 300;
   stroke-dashoffset: 200;
+}
+
+#secondaP:hover{
+  stroke-dasharray: 300;
+  stroke-dashoffset: 1000;
 }
 
 #terzaP{
   stroke-dasharray: 300;
   stroke-dashoffset: 500;
 }
+
+#terzaP:hover{
+  stroke-dasharray: 300;
+  stroke-dashoffset: 800;
+
+}
+
 
 .percent {
   position: relative;
